@@ -4,8 +4,7 @@ using System.Text;
 
 namespace Comedy
 {
-    public class Audience
+    public class MCBot : Performer
     {
-        public List<AudienceMember> AudienceMembers { get; set; }
     }
 }

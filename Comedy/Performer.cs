@@ -4,8 +4,11 @@ using System.Text;
 
 namespace Comedy
 {
-    public class Audience
+    public class Performer
     {
-        public List<AudienceMember> AudienceMembers { get; set; }
+        public void Says(string something)
+        {
+
+        }
     }
 }

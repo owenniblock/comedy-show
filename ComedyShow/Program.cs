@@ -1,9 +1,12 @@
-﻿using System;
+﻿using Comedy;
+using System;
 
 namespace ComedyShow
 {
     class Program
     {
+        public static Audience Audience { get; set; }
+
         static void Main(string[] args)
         {
             #region Before The Show

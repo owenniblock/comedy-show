@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Comedy
 {
-    public class Audience
+    public class Audience : List<AudienceMember>
     {
-        public List<AudienceMember> AudienceMembers { get; set; }
+        public bool WalkingIn { get; set; }
     }
 }

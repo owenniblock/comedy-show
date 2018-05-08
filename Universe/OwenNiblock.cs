@@ -1,13 +1,35 @@
-﻿using Comedy;
-using System;
+﻿using System;
 
 namespace Universe
 {
-    public class OwenNiblock : Niblock, IPerson
+    public class OwenNiblock : Niblock
     {
-        public string Name { get => "Owen Niblock"; }
-        public int? Age { get => 37; }
-        //TODO: Work this out:
-        public byte ProbabilityOrBeingOnTheSpectrum { get => 0; }
+        public bool AmNotARealMan { get; set; }
+        public bool ReallyWantATattoo { get; set; }
+
+        public void SlamHeckler()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SlamHeckler(string v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void DoTheSchoolRun()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Have(string v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Like(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

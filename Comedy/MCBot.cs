@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Comedy
 {
-    public class MCBot : Performer
+    public class MCBot : PersonAtShow
     {
     }
 }

@@ -31,5 +31,40 @@ namespace Universe
         {
             throw new NotImplementedException();
         }
+
+        public void GettingAngry()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SoSoAngry()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void HopeNot()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void WillSaveEvery5Minutes()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void LoveItHere(string v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void WillSaveEvery15Minutes()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Ask(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -6,5 +6,9 @@ namespace Comedy
 {
     public class MCBot : PersonAtShow
     {
+        public void TalksToPeople()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

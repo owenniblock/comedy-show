@@ -20,6 +20,11 @@ namespace Universe
             throw new NotImplementedException();
         }
 
+        public void HopesToSeeYouThere()
+        {
+            throw new NotImplementedException();
+        }
+
         public void DoTheSchoolRun()
         {
             throw new NotImplementedException();

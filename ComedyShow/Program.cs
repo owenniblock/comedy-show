@@ -17,255 +17,138 @@ namespace ComedyShow
         static void Main(string[] args)
         {
             #region Before The Show
-            ThanksToTheSoundTechForSortingTheCable();
-
             var i = new OwenNiblock();
-            i.Think("That was a nice wee");
-            i.Think("A nice sit down wee, the best kind");
+            i.Wonder("How it got so cold!");
+            // Thank you to Dan!!
 
-            i.Think("This is nice music - anyone know who it is?");
-            // No one
-            //Literally no one
+            i.Think("The show will start in about 20 min?");
+            i.DoNotKnow();
 
-            //Hello! It's OK - the show's no started yet.
-            // IT IS NOT FUCKING JAVA
-            i.Think("It's C# motherfucker");
-            i.GettingAngry();
-            i.SoSoAngry();
+            i.LoveCoding = true;
 
-            i.Think("I bet he doesn't wash his hands again");
+            //This is a show written specifically for Dave!
+            // You can see the code at: https://github.com/owenniblock/comedyshow :)
 
-            i.Say("It's not my problem either");
+            i.Think("I need another drink shelf!");
 
-            i.HopeNot();
+            i.Wonder("If my wife would like this????"); // Probably not!
+            i.AmGoingForAWee = true;
 
-            i.Say("..."); // I'm not very good at conversation
+            // This isn't the show by the way. Although it's similar to the show.
+            // I'm just killing time :)
+            // I got water on my sleeve. Looks like I weed on myself.
+            // It's just water. Honest.
 
-            i.LoveItHere("The toilet graffiti is great!");
-            //TODO: Fix the error above before pushing to github
+            i.Wonder("Who burped");
+            i.Think("Yes");
 
-            //At another gig - a guy got 
-            // really cross because I wasn't saving often enough...
-
-            i.WillSaveEvery15Minutes();
-            //No - I'll forget and then lose it!
-
-            //Everyone's a critic
-            // Calum has the best laugh!
-            // If he's not laughing at my show - you will know!
-
-            var mc = new MCBot();
-            mc.Name = "Paul";
-            mc.TalksToPeople();
-
-            i.Think("I feel old");
-            //My wife loves them too
-            //EDITED...
-
-
-            //FUCK THE FOOTBALL!!!!!!!!!
-            // SHHHHH!!
-            // They don't know I'm here!
-            i.Think("I've broken Paul");
-
-            //WARNING!!
-            i.Wonders("What else he has a large collection of " +
-                "on his phone...");
-            //SORRY!
-
-            var bison = new Bison();
-            bison.HavingATrip = true;
-
-            //EDITED!
-
-            i.Think("That's cool - whenever you're ready - " +
-                "I am :-)");
+            // Solarsphere is amazing :) Love it!!!!!
+            // You can read!
+            i.Think("I'm a bit worried now!");
 
             #endregion
 
             #region Audience Warm Up
+            i.Wonder("How old is your 'baby boy'?");
+            i.Think("I can say Fuck if I want");
+
+            i.DoNotDoJokes();
+
             i.Say("Hello");
-            //I'm going to do this for an hour.
-            //Should've watched the football!
+            i.Say("Are you well?");
+            // I knew that and I still asked
+            // it's like I don't care!
 
-            i.Wonder("If anyone wants to talk?");
-            i.Say("Hello Sam");
-            i.Ask("What do you do with most of your time?");
-            // I didn't want to assume you had a job...
-            // I don't know why.
+            i.Say("Give me a cheer for the start of the show");
+            // That was pretty good
 
-            i.ReallyWantATattoo = true;
-            //Stick with the code...!!!
+            i.Say("All the men - give me a cheer like a lady");
+            // Not so good
 
-            i.Say("What do you do Sam?");
-            //Vague...!
-            // It's a pound - after brexit it'll be worth nothing.
-            i.Say("What sort of 'business development'?");
-            //MAKE STUFF UP!
-            i.Say("Shit");
-            i.Wonder("If you work for the government :-P");
+            i.Say("All the women - give me a cheer like a man");
+            //Much better!
 
-            var sam = Audience.First(x => x.Name == "Sam");
-            sam.Age = 18; // I HOPE NOT!!!!!
-            // FUCK - I don't know. Let's say 18.
-            sam.HairColour = Dyed;
-            sam.Cheer(); // Broken.
-            sam.Interests = new List<string>
-                { "Circus", "Pole dancing"};
+            // Always be nice to the ladies.
+            // THEY WILL HURT YOU!
 
-            i.Ask("What's you favorite colour pole?");
-            //WHAT do I know about pole dancing??????????????????????????????????????????????????
-            //Nothing.
+            // DO YOU WANT A JOKE?
+            // You'll have to wait until after the code.
 
-            //That's a shame.
-            //Let's start the show!!!
-            //It's a show (sort of) about Autism.
-            //with typos.
+            // Which is in about an hour
+            // after I go to bed.
 
-            BoomingVoiceOfGod("Please cheer and applaud or something" +
-                "I don't know - make some noise for the start of the show");
+            i.Think("We have a heckler!");
+            // Too drunk to read...
+            i.Think("Not much - there's space");
+            //Except up in the air!
+            i.LikeBrandy = true;
+            i.Think("You're an asshole");
+            i.WouldLoveToSeeThat = true;
+
+            i.FeelCold();
+            // I can type very fast!
+            // The quick brown fox jumped over the whatever the fucking fox jumps over!
+
+            #endregion
+
+            #region 15 mins of jokes?
+            i.Age = 37; // In years
 
 
             #endregion
 
             #region About Child #1
             var child1 = new Person();
-            child1.Name = "[REDACTED]";
-            //TODO: ^ remove the above before putting online...!
+            i.Wonder("What is his name?");
+            // Thanks
+            // We can use that
 
-            child1.Age = 8; // On Tuesday!!
-            //Shit kid's parties are hard work!
-            // I sat in the corning coding
-            // And apparently that makes me a "bad Dad"...!
-            // Ha - I'm a liar.
-            // She hates lies - so I will remove that.
+            i.Think("When he comes back - we should play a game with him...");
+            i.Wonder("Do you know something that scares him?");
 
-            i.Feel("Like I'm winning at parenting at the moment");
-            // For homework she had to choose her favourite place..
-            child1.FavouritePlace = "Fairy land";
-            //Because I wouldn't let her put Wehtherspoons!
+            // What sort of joke would he like?
+            i.AmGoingToBeVeryCarefulWhatISay();
+
+            // Just that he seems quite nice
+            // Round of applause for Dan!
+            child1.Age = 8;
+
+            child1.Name = "Jasmine";
+            // TODO: Remove this before pushing to GitHub
 
             child1.WritesSongs();
 
-            child1.Likes("Abergavenny food festival");
-            i.Like("Abergavenny food festival - without children...");
+            i.AmWinningAtParenting();
 
-            child1.Loves = new List<String>();
-            child1.Loves.Add("Her Sister");
-            child1.Loves.Add("Her Mum");
-            child1.Loves.Add("Her Grandpa");
-            child1.Loves.Add("Her Grandma");
-            child1.Loves.Add("Her Nain");
-            child1.Loves.Add("Her Taid");
-            child1.Loves.Add("Frodo & Beorn");
-            child1.Loves.Add("Hippy the hamster");
-            child1.Loves.Add("Sam the dog");
-            child1.Loves.Add("Friends at school");
-            child1.Loves.Add("Daddy!");
-            //Awww - she loves me!
-            // That was a pocket money week!
+            child1.LovesAFoodFestival();
 
-            i.HaveStartedSayingDadPhrases = true;
-            child1.OnBarney("It's strange Daddy, " +
-                "he's a T-rex but he doesn't eat the children");
-
-            child1.ProbabilityOfBeingOnTheSpectrum = 7;
-
-            // I forgot about Saffron
-            var child2 = new Person();
-            child2.HairColour = "RED";
-            // Little more (insert good word later before posting online)
-
-            child2.Says("Daddy, I'm going to get bigger" +
-                "and bigger until I'm Dead");
-            child2.ProbabilityOfBeingOnTheSpectrum = 1;
-            child2.ProbabilityOfBeingAnEvilPhyscho = 999999999;
-
+            // It is 00:50! 
             #endregion
 
+            // THIS HAS BEEN AN EXPERIENCE
+
+
             #region About My Wife
-            // HAHAHAHAHA - EDIT THIS OUT BEFORE POSTING ONLINE..!
-            var myWife = new Person();
-            myWife.HairColour = Dyed;
-            myWife.HasTatoos = true;
-            i.Think("I'm punching above my weight!");
-            //TODO: leave the above bit in..!
-            //Might get a blowjob
-            // Edit that out!!!!!!!!!!!!!!!!!!!!!
+            i.HaveAMantra("I am still enjoying this");
 
-            myWife.HasOCD();
-            myWife.HasOCD();
-            myWife.HasOCD();
-
-            i.SlamHeckler();
-            i.HadAnArgumentWith(myWife);
-            myWife.Says("I want a divorce");
-            i.Say("...");
-            child1.Says("I want doesn't get");
-            //That was a double pocket money week!
-
-            myWife.IsLikeMarmite("More expensive since brexit");
-            myWife.IsLikeMarmite("I like to put my cock in it");
-
-            // For my birthday
-            myWife.MadeMeCross = true;
-            // Now people are going to think there some weird terrorist shit going on..!
-
-            myWife.ProbabilityOfBeingOnTheSpectrum = 3;
+            //Surreal heckling!
 
             #endregion
 
             #region About Me
-            i.Drive = true;
-            myWife.Drives = false;
-
-            i.Have("Two left feet");
-            //FUCK THE FOOTBALL!
-            //Makes it really hard to run
-            //But really easy to steal shoes!
-
-            i.Was("Born in the year of the cock");
-            i.Like("My baths monkey hot");
-
-            i.Collect("Collect reasons why I'm not a real man");
-            i.ReasonsWhyIamNotARealManCount = 327;
-            i.AmNotARealManBecause("I sit down to wee");
-            i.AmNotARealManBecause("When I saw the trailer " +
-                "for the new Star Wars film" +
-                "a little bit of wee came out.");
-
-            i.AmNotARealManBecause("I play the flute");
-            // Heckle: "no wonder your kids hate you!!!" - Sam, Fuel, 14/06/2018 22:01
 
             #endregion
 
             #region Conclusions
-            // I really don't know what I'm doing but this is fun!
-            // So I'm going to do it again.
-
-            // I'm going to do this at Greenman...
-            // WHAT THE FUCK AM I THINKING????????
-            // I'm sure it'll be fine...
-
-
-            // I might be on the Autism spectrum..?
-            // My daughter (child1) might be on the spectrum
-            // But she's also awesome!
-            // 
-
-            TheEnd();
-
+            i.Think("This has been fun");
+            i.Hope("You agree");
+            i.WillSeeYouAllTomorrow();
             #endregion
         }
 
         private static void BoomingVoiceOfGod(string v)
         {
-            throw new NotImplementedException();
-        }
-
-        private static void ThanksToTheSoundTechForSortingTheCable()
-        {
-            throw new NotImplementedException();
+            
         }
 
         private static void TheEnd()

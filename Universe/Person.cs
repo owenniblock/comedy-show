@@ -66,5 +66,10 @@ namespace Universe
         {
             throw new NotImplementedException();
         }
+
+        public void LovesAFoodFestival()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

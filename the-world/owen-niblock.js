@@ -111,7 +111,7 @@ class OwenNiblock {
             "Peanut Butter",
             "isms",
             "Change", // Struggling with lockdown right now
-            
+            "Hugs",
         ]
     }    
 }

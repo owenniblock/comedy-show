@@ -29,6 +29,10 @@ class TheWorld {
     }
 
     day2() {
+        this.LandMasses = [
+            new Britain(),
+            // TODO: Make the rest of the world!
+        ]
 
     }
 

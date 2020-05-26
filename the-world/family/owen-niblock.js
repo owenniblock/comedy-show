@@ -5,9 +5,11 @@ class OwenNiblock {
 
         this.twitter = "https://twitter.com/owenniblock";
         this.youtube = "https://youtube.com/owenniblock";
-        this.github = "hittps://github.com/owenniblock/comedy-show"; // Find is within there in /the-world
+        this.github = "https://github.com/owenniblock/comedy-show"; // Find is within there in /the-world
 
         this.age = 39;
+
+        this.aimsInLife = "Becom A Published Author";
 
         this.pets = [
             new Cat("black", "Pippin", "Cheeky"),
@@ -21,6 +23,8 @@ class OwenNiblock {
         // TODO: Split this out to a person class
         // She's a person in her own right ((c) Rhod Gilbert)
         this.wife = new Wife("Jem", "Black", 5.3, "Female");
+
+        this.wife.watchesTheShow = false;
 
         this.wife.interest = [
             "Learning Spanish",
@@ -39,7 +43,7 @@ class OwenNiblock {
             "Injustice",
             "People eating apples near her",
             "Inconsistency",
-            "Things not being 3s"
+            "Things not being 3s" // Including 3 M&Ms
         ]
 
         this.probabilityOfBeingAutistic = 0.6;
@@ -72,6 +76,8 @@ class OwenNiblock {
         this.idiot = true; // More evidence for this later :)
 
         this.probabilityOfBeingAutistic = 0.75; // Probably autistic but undiagnosed...
+
+        this.likeTheHulkButNeverGetsBuff = true;
 
         this.job = "Computer Geek";
 
